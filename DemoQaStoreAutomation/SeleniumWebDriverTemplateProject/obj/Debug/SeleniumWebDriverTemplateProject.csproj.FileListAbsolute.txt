@@ -1,0 +1,39 @@
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\SeleniumWebDriverTemplateProject.dll.config
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\SeleniumWebDriverTemplateProject.dll
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\SeleniumWebDriverTemplateProject.pdb
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.csprojResolveAssemblyReference.cache
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.dll
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.pdb
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.dll
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.Support.dll
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.xml
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.Support.xml
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\nunit.framework.dll
+D:\Work\C#\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\nunit.framework.xml
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.csprojResolveAssemblyReference.cache
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.pdb
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\SeleniumWebDriverTemplateProject.dll.config
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\SeleniumWebDriverTemplateProject.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\SeleniumWebDriverTemplateProject.pdb
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\nunit.framework.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.Support.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\nunit.framework.xml
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.xml
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\WebDriver.Support.xml
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\nunit.engine.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\nunit.engine.api.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\Mono.Cecil.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Ugabuk\Desktop\Old HDD\SeleniumWebDriverTemplateProject\SeleniumWebDriverTemplateProject\bin\Debug\Mono.Cecil.Rocks.dll
