@@ -30,6 +30,11 @@ namespace SeleniumWebDriverTemplateProject.Pages
         [FindsBy(How = How.Id, Using = "login")]
         public IWebElement LoginButton { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = "#meta > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)")]
+        public IWebElement LoginTextBox { get; set; }
+
+
+
         public static string Path { get { return "/products-page/your-account/"; } }
 
         public static LoginPage NavigateTo(IWebDriver driver)

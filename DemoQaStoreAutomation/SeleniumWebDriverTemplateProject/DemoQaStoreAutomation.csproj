@@ -68,10 +68,15 @@
     <Compile Include="Helpers\PageFactoryExtensions.cs" />
     <Compile Include="Pages\Abstract\Page.cs" />
     <Compile Include="Pages\CheckOutPage.cs" />
+    <Compile Include="Pages\ContactDetailsPage.cs" />
     <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Pages\LoginPage.cs" />
+    <Compile Include="Pages\OtherLoginPage.cs" />
     <Compile Include="Pages\ProductCategoryPage.cs" />
+    <Compile Include="Pages\ProfilPage.cs" />
     <Compile Include="Pages\PurchaseInformationPage.cs" />
+    <Compile Include="Pages\SearchProductBlackPage.cs" />
+    <Compile Include="Pages\SearchProductPage.cs" />
     <Compile Include="Pages\TransactionResultPage.cs" />
     <Compile Include="Pages\YourAccountPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,9 +86,12 @@
     <Compile Include="Tests\CheckoutButtonTest.cs" />
     <Compile Include="Tests\HomePageTests.cs" />
     <Compile Include="Tests\LoginTests.cs" />
+    <Compile Include="Tests\LogoutTest.cs" />
     <Compile Include="Tests\MyAccountButtonTests.cs" />
     <Compile Include="Tests\ProductPageTests.cs" />
     <Compile Include="Tests\PurchaseTests.cs" />
+    <Compile Include="Tests\SearchProductTests.cs" />
+    <Compile Include="Tests\YourBillingContactDetailsTest.cs" />
     <Compile Include="Tests\YourAccountTest.cs" />
   </ItemGroup>
   <ItemGroup>

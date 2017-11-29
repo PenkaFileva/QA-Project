@@ -34,6 +34,7 @@ namespace SeleniumWebDriverTemplateProject.Tests
             Assert.AreEqual(
                     yourAccountPage.UserNameTextBox.Text, "pepina2111"
                 );
+            Thread.Sleep(3000);
         }
     }
 }

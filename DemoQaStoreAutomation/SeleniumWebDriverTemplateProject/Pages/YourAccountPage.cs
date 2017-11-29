@@ -36,6 +36,12 @@ namespace SeleniumWebDriverTemplateProject.Pages
         [FindsBy(How = How.CssSelector, Using = ".user-profile-links > a:nth-child(3)")]
         public IWebElement YourDownloads { get; set; }
 
+        [FindsBy(How = How.Id, Using = "account_logout")]
+        public IWebElement Logout { get; set; }
+
+        [FindsBy(How = How.CssSelector, Using = "input.search")]
+        public IWebElement SearchTextBox { get; set; }
+
         public static YourAccountPage NavigateTo(IWebDriver driver)
         {
             var loginPageInstance = LoginPage.NavigateTo(driver);
