@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
@@ -39,10 +40,29 @@ namespace SeleniumWebDriverTemplateProject.Tests
             var removeButtons = checkOutPageIns.GetRemoveButtons();
             for (int i = removeButtons.Count -1; i >= 0; i--)
             {
-                removeButtons[i].Click();
-                removeButtons.RemoveAt(i);
-                
-                Thread.Sleep(10000);
+                if (removeButtons.Count == 1)
+                {
+                    removeButtons[i].Click();
+                    Thread.Sleep(10000);
+                    var checkOutPageEmptyIns = PageFactoryExtensions.InitPage<CheckOutPageEmpty>(this.Driver);
+                    var checkOutPageEmptyInsStr = checkOutPageEmptyIns.CheckOutEmptyBox.Text;
+                    string checkOutPageEmptyInsString = Regex.Match(checkOutPageEmptyInsStr, @"\d+").Value;
+                    int subTotalAsInt = Convert.ToInt32(checkOutPageEmptyInsString);
+                    if (subTotalAsInt == 0)
+                    {
+                        break;   
+                    }
+                }
+                else
+                {
+                    removeButtons[i].Click();
+                    Thread.Sleep(10000);
+
+                    checkOutPageIns = PageFactoryExtensions.InitPage<CheckOutPage>(Driver);
+                    removeButtons = checkOutPageIns.GetRemoveButtons();
+
+                    Thread.Sleep(2000);
+                }
             }
         }
     }

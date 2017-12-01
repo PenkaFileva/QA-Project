@@ -71,6 +71,7 @@
     <Compile Include="Helpers\PageFactoryExtensions.cs" />
     <Compile Include="Pages\Abstract\Page.cs" />
     <Compile Include="Pages\CheckOutPage.cs" />
+    <Compile Include="Pages\CheckOutPageEmpty.cs" />
     <Compile Include="Pages\ContactDetailsPage.cs" />
     <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Pages\LoginPage.cs" />
