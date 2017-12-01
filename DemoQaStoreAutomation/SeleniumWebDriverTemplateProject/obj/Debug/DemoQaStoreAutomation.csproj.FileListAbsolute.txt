@@ -44,3 +44,5 @@ D:\QA Fundamentals\DemoQaStoreAutomation\SeleniumWebDriverTemplateProject\bin\De
 D:\QA Fundamentals\DemoQaStoreAutomation\SeleniumWebDriverTemplateProject\obj\Debug\DemoQaStoreAutomation.csprojResolveAssemblyReference.cache
 D:\QA Fundamentals\DemoQaStoreAutomation\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.dll
 D:\QA Fundamentals\DemoQaStoreAutomation\SeleniumWebDriverTemplateProject\obj\Debug\SeleniumWebDriverTemplateProject.pdb
+D:\QA Fundamentals\DemoQaStoreAutomation\SeleniumWebDriverTemplateProject\bin\Debug\Faker.NET4.dll
+D:\QA Fundamentals\DemoQaStoreAutomation\SeleniumWebDriverTemplateProject\bin\Debug\de-DE\Faker.NET4.resources.dll

@@ -45,18 +45,22 @@ namespace SeleniumWebDriverTemplateProject.Tests
             var checkOutPageInstance = PageFactoryExtensions.InitPage<CheckOutPage>(Driver);
 
             int totalPriceFromCheckoutPage = checkOutPageInstance.GetSubTotal();
+            int totalProductFromCheckoutPage = checkOutPageInstance.GetTotal();
 
-            Assert.AreEqual(totalPriceFromProductCategoryPage, totalPriceFromCheckoutPage);
+            Assert.AreEqual(totalProductFromCheckoutPage, totalPriceFromCheckoutPage);
+            System.Threading.Thread.Sleep(4000);
 
             //navigate to purchase information page
             checkOutPageInstance.ContiniueButton.Click();
-            var purchaseInformationPageInstance = PageFactoryExtensions.InitPage<PurchaseInformationPage>(Driver);
+            var purchaseInformationPageInstance = PageFactoryExtensions.InitPage<PurchaseInformationPage>(this.Driver);
             System.Threading.Thread.Sleep(4000);
 
             int totalItemPriceFromPurchaseInformationPage = purchaseInformationPageInstance.GetItemCost();
             int totalPriceFromPurchaseInformationPage = purchaseInformationPageInstance.GetTotalPrice();
+            int totalShippingFromPurchaseInformationPage = purchaseInformationPageInstance.GetTotalShiping();
 
-            Assert.AreEqual(totalPriceFromProductCategoryPage, totalItemPriceFromPurchaseInformationPage);
+            Assert.AreEqual(totalPriceFromPurchaseInformationPage, 
+                totalItemPriceFromPurchaseInformationPage + totalShippingFromPurchaseInformationPage);
 
             //navigate to TransactionResultPage
             purchaseInformationPageInstance.PurchaseButton.Click();

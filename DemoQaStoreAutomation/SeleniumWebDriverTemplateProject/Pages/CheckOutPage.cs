@@ -15,7 +15,7 @@ namespace SeleniumWebDriverTemplateProject.Pages
         [FindsBy(How = How.ClassName, Using = "checkout_cart")]
         public IWebElement CheckOutCartRoot { get; set; }
 
-        [FindsBy(How = How.CssSelector, Using = ".step2 > span:nth-child(1)")] //.step2 > span:nth-child(1)
+        [FindsBy(How = How.CssSelector, Using = ".step2 span")] //.step2 > span:nth-child(1)
         public IWebElement ContiniueButton { get; set; }
 
         [FindsBy(How = How.CssSelector, Using = ".yourtotal span")]//.yourtotal > span:nth-child(1)//.yourtotal > span:nth-child(1)
@@ -31,6 +31,22 @@ namespace SeleniumWebDriverTemplateProject.Pages
             int subTotalAsInt = Convert.ToInt32(subTotalAsString);
 
             return subTotalAsInt;
+        }
+
+        public int GetTotal()
+        {
+            int totalProducts = 0;
+
+            var totals = GetTotalTextBoxes();
+            for (int i = 0; i < totals.Count; i++)
+            {
+                string currentTotal = totals[i].Text;
+                string currentTotalAsString = Regex.Match(currentTotal, @"\d+").Value;
+                int subTotalAsInt = Convert.ToInt32(currentTotalAsString);
+                totalProducts += subTotalAsInt;
+            }
+           
+            return totalProducts;
         }
 
         public List<IWebElement> GetProductNames()
@@ -70,7 +86,7 @@ namespace SeleniumWebDriverTemplateProject.Pages
 
         public List<IWebElement> GetRemoveButtons()
         {
-            var totalCheckBoxes = this.CheckOutCartRoot.FindElements(By.CssSelector(".remove > input:nth-child(4)")); //.wpsc_product_remove_1 > form:nth-child(1) > input:nth-child(4)
+            var totalCheckBoxes = this.CheckOutCartRoot.FindElements(By.CssSelector(".remove > input:nth-child(4)")); //.adjustform.remove > input:nth-child(4) ili .remove > input:nth-child(4)
 
             return totalCheckBoxes.ToList<IWebElement>();
         }

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using OpenQA.Selenium;
 
 namespace SeleniumWebDriverTemplateProject.Tests
 {
@@ -29,14 +30,20 @@ namespace SeleniumWebDriverTemplateProject.Tests
 
             //if (countAsAnInteger > 0)
             //{
-                foreach (var removeButton in checkOutPageIns.GetRemoveButtons())
-                {
-                    removeButton.Click();
-                    Thread.Sleep(6000);
-                }
+                //foreach (var removeButton in checkOutPageIns.GetRemoveButtons())
+                //{
+                //    removeButton.Click();
+                //    Thread.Sleep(10000);
+                //}
             //}
-
-
+            var removeButtons = checkOutPageIns.GetRemoveButtons();
+            for (int i = removeButtons.Count -1; i >= 0; i--)
+            {
+                removeButtons[i].Click();
+                removeButtons.RemoveAt(i);
+                
+                Thread.Sleep(10000);
+            }
         }
     }
 }

@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Faker.NET4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Faker.Net.1.0.3\lib\net40\Faker.NET4.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.8.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.8.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
@@ -85,6 +88,7 @@
     <Compile Include="Tests\AllProductTests.cs" />
     <Compile Include="Tests\CheckoutButtonTest.cs" />
     <Compile Include="Tests\HomePageTests.cs" />
+    <Compile Include="Tests\LoginLogoutTests.cs" />
     <Compile Include="Tests\LoginTests.cs" />
     <Compile Include="Tests\LogoutTest.cs" />
     <Compile Include="Tests\MyAccountButtonTests.cs" />

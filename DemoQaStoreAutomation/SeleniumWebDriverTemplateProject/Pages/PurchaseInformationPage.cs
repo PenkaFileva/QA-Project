@@ -107,5 +107,14 @@ namespace SeleniumWebDriverTemplateProject.Pages
 
             return rawPriceAsInt;
         }
+
+        public int GetTotalShiping()
+        {
+            string totalShiping = this.TotalShippingPriceTextBox.Text;
+            string totalShipingAsString = Regex.Match(totalShiping, @"\d+").Value;
+            int totalShipingAsInt = Convert.ToInt32(totalShipingAsString);
+
+            return totalShipingAsInt;
+        }
     }
 }
